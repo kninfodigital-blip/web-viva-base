@@ -438,7 +438,7 @@ def llms(paginas_por_idioma, legales_por_idioma):
     lang = DEF; u = UI[lang]; d = CON['direccion']
     servs = '; '.join(f'{t(s["nombre"], lang)} ({t(s["resumen"], lang)})' for s in CFG['servicios'])
     resumen = (f"{NEG['nombre']} — {t(NEG.get('descripcion_corta'), lang)} Servicios: {servs}. Zona: {t(CFG['zona']['nombre'], lang)} ({', '.join(CFG['zona']['localidades'])}). "
-               f"Dirección: {d['calle']}, {d['cp']} {d['localidad']}. Teléfono {CON.get('telefono_visible') or CON['telefono']}, WhatsApp {wa_url(lang)}, email {CON['email']}. Horario: {t(CON.get('horario_visible', ''), lang)}.")
+               f"Dirección: {d['calle']}, {d['cp']} {d['localidad']}. Teléfono {CON.get('telefono_visible') or CON['telefono']} · email {CON['email']} · WhatsApp: {wa_url(lang)} · Horario: {t(CON.get('horario_visible', ''), lang)}.")
     L = [f'# {NEG["nombre"]}', '', f'> {resumen}', '', 'Notas para agentes:', '', f'- Idiomas del sitio: {", ".join(IDIOMAS)} (por defecto {DEF}).',
          '- Todas las páginas devuelven Markdown si se piden con `Accept: text/markdown` y también existen como `.md` en la misma ruta.',
          '- La cita y el contacto los hace siempre la persona (WhatsApp, teléfono o formulario); no hay reserva ni pago automáticos en esta web.', '']

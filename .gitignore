@@ -6,3 +6,4 @@ dist/
 !.env.example
 medicion/
 .DS_Store
+.vercel
