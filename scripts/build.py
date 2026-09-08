@@ -284,7 +284,7 @@ def sec_md(s, lang, page):
 
 # ----------------------------------------------------------------------------- página completa
 def head(lang, title, desc, canon_slug, alternates, ld, is_legal=False, noindex=False):
-    hl = ''.join(f'<link rel="alternate" hreflang="{l}" href="{abs_url(l, sl)}">' for l, sl in alternates) + (f'<link rel="alternate" hreflang="x-default" href="{abs_url(DEF, canon_slug)}">' if len(alternates) > 1 else '')
+    hl = '' if len(alternates) < 2 else ''.join(f'<link rel="alternate" hreflang="{l}" href="{abs_url(l, sl)}">' for l, sl in alternates) + f'<link rel="alternate" hreflang="x-default" href="{abs_url(DEF, canon_slug)}">'
     md_href = url(lang, canon_slug).rstrip('/') + ('/index.md' if not canon_slug else '.md')
     og = CFG['imagenes'].get('og')
     return f'''<!DOCTYPE html>
