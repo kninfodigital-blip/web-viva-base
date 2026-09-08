@@ -1,0 +1,12 @@
+{ "slug": "", "orden": 1, "nav": "Inici",
+  "title": "Fisioteràpia Serra · Fisioteràpia a Girona",
+  "description": "Clínica de fisioteràpia a Girona: tractament del dolor, recuperació esportiva i sòl pelvià. Primera visita amb diagnòstic funcional. Cita en 24-48 h.",
+  "secciones": [
+    { "tipo": "hero", "titulo": "Fisioteràpia a Girona que tracta la causa, no només el símptoma", "texto": "Diagnòstic funcional a la primera visita, pla de tractament clar i seguiment fins que tornis a moure't sense dolor. Cita en 24-48 hores.", "boton": "Demanar cita per WhatsApp", "boton2": "Veure serveis", "boton2_url": "/servicios" },
+    { "tipo": "cifras", "items": [ { "cifra": "+12", "texto": "anys tractant pacients a Girona" }, { "cifra": "24-48 h", "texto": "per a la teva primera cita" }, { "cifra": "45 min", "texto": "de sessió completa, sense presses" } ] },
+    { "tipo": "servicios", "titulo": "Què tractem", "texto": "Quatre línies de treball, un mateix criteri: entendre per què fa mal abans de tractar." },
+    { "tipo": "pasos", "titulo": "Com treballem", "items": [ { "titulo": "Valoració", "texto": "45 minuts per escoltar-te, explorar i explicar-te què està passant." }, { "titulo": "Pla", "texto": "Objectius, nombre aproximat de sessions i exercicis per a casa." }, { "titulo": "Seguiment", "texto": "Revisem avenços a cada sessió i ajustem el que calgui." } ] },
+    { "tipo": "testimonios", "titulo": "Què diuen els nostres pacients", "items": [ { "texto": "Vaig arribar amb una lumbàlgia que arrossegava des de feia mesos. En sis sessions vaig tornar a córrer.", "autor": "Marta P., Salt" }, { "texto": "Em van explicar què tenia i per què. És la primera vegada que surto d'una consulta entenent la meva lesió.", "autor": "Jordi R., Girona" } ] },
+    { "tipo": "faq", "titulo": "Preguntes freqüents", "items": [ { "p": "Necessito derivació mèdica?", "r": "No. Pots demanar cita directament. Si tens informes o proves d'imatge, porta'ls: ens ajuden." }, { "p": "Quant dura una sessió?", "r": "La primera visita dura 45 minuts i inclou valoració i tractament. Les següents, entre 40 i 45 minuts." }, { "p": "Treballeu amb mútues?", "r": "Treballem de manera privada. Et lliurem factura perquè la presentis a la teva assegurança si ho cobreix." } ] },
+    { "tipo": "cta", "titulo": "Parlem del teu cas?", "texto": "Escriu-nos per WhatsApp i et diem si et podem ajudar abans que demanis cita.", "boton": "Escriure per WhatsApp" }
+  ] }

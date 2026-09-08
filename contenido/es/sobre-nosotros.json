@@ -1,0 +1,10 @@
+{ "slug": "sobre-nosotros", "orden": 3, "nav": "Sobre nosotros",
+  "title": "Sobre nosotros · Fisioteràpia Serra, Girona",
+  "description": "Equipo de fisioterapeutas colegiados en Girona desde 2012. Trato cercano, explicaciones claras y tratamiento basado en la evidencia.",
+  "secciones": [
+    { "tipo": "cabecera", "titulo": "Sobre nosotros", "texto": "Abrimos la clínica en 2012 con una idea sencilla: que cada paciente salga de la consulta entendiendo qué le pasa y qué vamos a hacer." },
+    { "tipo": "texto", "titulo": "Quiénes somos", "parrafos": ["Somos un equipo de tres fisioterapeutas colegiados con formación continua en terapia manual, ejercicio terapéutico y suelo pélvico.", "Trabajamos con agenda cerrada: cuando estás en consulta, el tiempo es tuyo. Sin dos pacientes a la vez."] },
+    { "tipo": "valores", "titulo": "Cómo trabajamos", "items": [ { "titulo": "Explicamos", "texto": "Sin jerga. Si no entiendes tu lesión, no hemos hecho bien nuestro trabajo." }, { "titulo": "Medimos", "texto": "Objetivos concretos en cada plan y revisión de avances en cada sesión." }, { "titulo": "Acompañamos", "texto": "Ejercicios para casa, seguimiento por WhatsApp y alta cuando toca, no antes." } ] },
+    { "tipo": "equipo", "titulo": "El equipo", "items": [ { "nombre": "Laia Serra", "rol": "Fisioterapeuta · Directora", "texto": "Colegiada nº 0000. Terapia manual y dolor crónico." }, { "nombre": "Pau Vidal", "rol": "Fisioterapeuta deportivo", "texto": "Colegiado nº 0001. Readaptación y prevención." }, { "nombre": "Núria Coll", "rol": "Fisioterapeuta · Suelo pélvico", "texto": "Colegiada nº 0002. Embarazo y posparto." } ] },
+    { "tipo": "cta", "titulo": "Ven a conocernos", "texto": "La primera visita incluye valoración completa. Pide cita y te damos hora en 24-48 horas.", "boton": "Pedir cita por WhatsApp" }
+  ] }

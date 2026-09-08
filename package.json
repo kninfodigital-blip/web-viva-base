@@ -1,0 +1,9 @@
+{
+  "name": "web-viva-base",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18.x" },
+  "scripts": { "build": "python3 scripts/build.py", "preview": "python3 scripts/build.py && npx --yes serve -l 4174 dist", "medir": "bash scripts/medir.sh" },
+  "dependencies": { "nodemailer": "^6.9.0" }
+}

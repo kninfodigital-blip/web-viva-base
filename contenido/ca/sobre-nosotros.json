@@ -1,0 +1,10 @@
+{ "slug": "sobre-nosotros", "orden": 3, "nav": "Qui som",
+  "title": "Qui som · Fisioteràpia Serra, Girona",
+  "description": "Equip de fisioterapeutes col·legiats a Girona des del 2012. Tracte proper, explicacions clares i tractament basat en l'evidència.",
+  "secciones": [
+    { "tipo": "cabecera", "titulo": "Qui som", "texto": "Vam obrir la clínica el 2012 amb una idea senzilla: que cada pacient surti de la consulta entenent què li passa i què farem." },
+    { "tipo": "texto", "titulo": "L'equip i la manera de fer", "parrafos": ["Som un equip de tres fisioterapeutes col·legiats amb formació contínua en teràpia manual, exercici terapèutic i sòl pelvià.", "Treballem amb agenda tancada: quan ets a consulta, el temps és teu. Mai dos pacients alhora."] },
+    { "tipo": "valores", "titulo": "Com treballem", "items": [ { "titulo": "Expliquem", "texto": "Sense argot. Si no entens la teva lesió, no hem fet bé la nostra feina." }, { "titulo": "Mesurem", "texto": "Objectius concrets a cada pla i revisió d'avenços a cada sessió." }, { "titulo": "Acompanyem", "texto": "Exercicis per a casa, seguiment per WhatsApp i alta quan toca, no abans." } ] },
+    { "tipo": "equipo", "titulo": "L'equip", "items": [ { "nombre": "Laia Serra", "rol": "Fisioterapeuta · Directora", "texto": "Col·legiada núm. 0000. Teràpia manual i dolor crònic." }, { "nombre": "Pau Vidal", "rol": "Fisioterapeuta esportiu", "texto": "Col·legiat núm. 0001. Readaptació i prevenció." }, { "nombre": "Núria Coll", "rol": "Fisioterapeuta · Sòl pelvià", "texto": "Col·legiada núm. 0002. Embaràs i postpart." } ] },
+    { "tipo": "cta", "titulo": "Vine a conèixer-nos", "texto": "La primera visita inclou valoració completa. Demana cita i et donem hora en 24-48 hores.", "boton": "Demanar cita per WhatsApp" }
+  ] }

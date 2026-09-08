@@ -1,0 +1,13 @@
+{ "slug": "servicios", "orden": 2, "nav": "Servicios",
+  "title": "Servicios de fisioterapia en Girona · Fisioteràpia Serra",
+  "description": "Tratamiento del dolor, fisioterapia deportiva, suelo pélvico y fisioterapia a domicilio en Girona. Primera visita de 45 minutos con diagnóstico funcional.",
+  "secciones": [
+    { "tipo": "cabecera", "titulo": "Servicios", "texto": "Cuatro especialidades y un mismo método: valorar, explicar, tratar y darte herramientas para que no vuelva." },
+    { "tipo": "servicios_detalle", "detalle": {
+        "dolor": { "parrafos": ["Dolor cervical, lumbar, de hombro o de rodilla que no se va con reposo. Buscamos la causa mecánica y la tratamos con terapia manual, ejercicio terapéutico y educación.", "Primera visita de 45 minutos con valoración completa y plan de sesiones estimado."], "incluye": ["Valoración funcional", "Terapia manual", "Ejercicio terapéutico guiado", "Pautas para el día a día"] },
+        "deportiva": { "parrafos": ["Esguinces, roturas fibrilares, tendinopatías y sobrecargas. Readaptación progresiva con criterios de vuelta al deporte.", "Trabajamos con corredores, ciclistas y clubes de la zona."], "incluye": ["Diagnóstico de la lesión", "Readaptación con carga", "Prevención de recaídas", "Coordinación con tu entrenador"] },
+        "suelo-pelvico": { "parrafos": ["Preparación al parto, recuperación posparto, incontinencia y dolor pélvico. Un espacio íntimo y una valoración individual.", "Sesiones de 45 minutos con ejercicios guiados que sabrás repetir en casa."], "incluye": ["Valoración del suelo pélvico", "Programa de ejercicios", "Seguimiento posparto", "Coordinación con matrona"] },
+        "domicilio": { "parrafos": ["Para personas con movilidad reducida, posoperatorios o pacientes mayores en Girona y municipios del Gironès.", "Llevamos el material necesario; solo necesitas un espacio tranquilo."], "incluye": ["Desplazamiento incluido en Girona", "Camilla portátil si hace falta", "Pautas para la familia", "Informe para el médico"] }
+      } },
+    { "tipo": "cta", "titulo": "¿No sabes qué servicio necesitas?", "texto": "Cuéntanos qué te pasa por WhatsApp y te orientamos sin compromiso.", "boton": "Escribir por WhatsApp" }
+  ] }

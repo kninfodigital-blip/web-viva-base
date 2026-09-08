@@ -1,0 +1,7 @@
+{ "slug": "contacto", "orden": 5, "nav": "Contacte",
+  "title": "Contacte i cita · Fisioteràpia Serra, Girona",
+  "description": "Demana cita a Fisioteràpia Serra: WhatsApp, telèfon o formulari. Carrer Exemple 12, Girona. De dilluns a divendres de 9:00 a 20:00.",
+  "secciones": [
+    { "tipo": "cabecera", "titulo": "Contacte", "texto": "La manera més ràpida és WhatsApp. Si ho prefereixes, truca'ns o deixa'ns el teu missatge i et responem en menys de 24 hores laborables." },
+    { "tipo": "contacto" }
+  ] }

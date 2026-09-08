@@ -1,0 +1,13 @@
+{ "slug": "servicios", "orden": 2, "nav": "Serveis",
+  "title": "Serveis de fisioteràpia a Girona · Fisioteràpia Serra",
+  "description": "Tractament del dolor, fisioteràpia esportiva, sòl pelvià i fisioteràpia a domicili a Girona. Primera visita de 45 minuts amb diagnòstic funcional.",
+  "secciones": [
+    { "tipo": "cabecera", "titulo": "Serveis", "texto": "Quatre especialitats i un mateix mètode: valorar, explicar, tractar i donar-te eines perquè no torni." },
+    { "tipo": "servicios_detalle", "detalle": {
+        "dolor": { "parrafos": ["Dolor cervical, lumbar, d'espatlla o de genoll que no marxa amb repòs. Busquem la causa mecànica i la tractem amb teràpia manual, exercici terapèutic i educació.", "Primera visita de 45 minuts amb valoració completa i pla de sessions estimat."], "incluye": ["Valoració funcional", "Teràpia manual", "Exercici terapèutic guiat", "Pautes per al dia a dia"] },
+        "deportiva": { "parrafos": ["Esquinços, trencaments fibril·lars, tendinopaties i sobrecàrregues. Readaptació progressiva amb criteris de retorn a l'esport.", "Treballem amb corredors, ciclistes i clubs de la zona."], "incluye": ["Diagnòstic de la lesió", "Readaptació amb càrrega", "Prevenció de recaigudes", "Coordinació amb el teu entrenador"] },
+        "suelo-pelvico": { "parrafos": ["Preparació al part, recuperació postpart, incontinència i dolor pelvià. Un espai íntim i una valoració individual.", "Sessions de 45 minuts amb exercicis guiats que sabràs repetir a casa."], "incluye": ["Valoració del sòl pelvià", "Programa d'exercicis", "Seguiment postpart", "Coordinació amb la llevadora"] },
+        "domicilio": { "parrafos": ["Per a persones amb mobilitat reduïda, postoperatoris o pacients grans a Girona i municipis del Gironès.", "Portem el material necessari; només cal un espai tranquil."], "incluye": ["Desplaçament inclòs a Girona", "Llitera portàtil si cal", "Pautes per a la família", "Informe per al metge"] }
+      } },
+    { "tipo": "cta", "titulo": "No saps quin servei necessites?", "texto": "Explica'ns què et passa per WhatsApp i t'orientem sense compromís.", "boton": "Escriure per WhatsApp" }
+  ] }

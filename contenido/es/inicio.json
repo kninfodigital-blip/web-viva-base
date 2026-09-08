@@ -1,0 +1,12 @@
+{ "slug": "", "orden": 1, "nav": "Inicio",
+  "title": "Fisioteràpia Serra · Fisioterapia en Girona",
+  "description": "Clínica de fisioterapia en Girona: tratamiento del dolor, recuperación deportiva y suelo pélvico. Primera visita con diagnóstico funcional. Cita en 24-48 h.",
+  "secciones": [
+    { "tipo": "hero", "titulo": "Fisioterapia en Girona que trata la causa, no solo el síntoma", "texto": "Diagnóstico funcional en la primera visita, plan de tratamiento claro y seguimiento hasta que vuelvas a moverte sin dolor. Cita en 24-48 horas.", "boton": "Pedir cita por WhatsApp", "boton2": "Ver servicios", "boton2_url": "/servicios" },
+    { "tipo": "cifras", "items": [ { "cifra": "+12", "texto": "años tratando pacientes en Girona" }, { "cifra": "24-48 h", "texto": "para tu primera cita" }, { "cifra": "45 min", "texto": "de sesión completa, sin prisas" } ] },
+    { "tipo": "servicios", "titulo": "Qué tratamos", "texto": "Cuatro líneas de trabajo, un mismo criterio: entender por qué duele antes de tratar." },
+    { "tipo": "pasos", "titulo": "Cómo trabajamos", "items": [ { "titulo": "Valoración", "texto": "45 minutos para escucharte, explorar y explicarte qué está pasando." }, { "titulo": "Plan", "texto": "Objetivos, número aproximado de sesiones y ejercicios para casa." }, { "titulo": "Seguimiento", "texto": "Revisamos avances en cada sesión y ajustamos lo que haga falta." } ] },
+    { "tipo": "testimonios", "titulo": "Lo que dicen nuestros pacientes", "items": [ { "texto": "Llegué con una lumbalgia que arrastraba desde hacía meses. En seis sesiones volví a correr.", "autor": "Marta P., Salt" }, { "texto": "Me explicaron qué tenía y por qué. Es la primera vez que salgo de una consulta entendiendo mi lesión.", "autor": "Jordi R., Girona" } ] },
+    { "tipo": "faq", "titulo": "Preguntas frecuentes", "items": [ { "p": "¿Necesito derivación médica?", "r": "No. Puedes pedir cita directamente. Si vienes con informes o pruebas de imagen, tráelos: nos ayudan." }, { "p": "¿Cuánto dura una sesión?", "r": "La primera visita dura 45 minutos e incluye valoración y tratamiento. Las siguientes, entre 40 y 45 minutos." }, { "p": "¿Trabajáis con mutuas?", "r": "Trabajamos de forma privada. Te entregamos factura para que la presentes a tu seguro si lo cubre." } ] },
+    { "tipo": "cta", "titulo": "¿Hablamos de tu caso?", "texto": "Escríbenos por WhatsApp y te decimos si podemos ayudarte antes de que pidas cita.", "boton": "Escribir por WhatsApp" }
+  ] }

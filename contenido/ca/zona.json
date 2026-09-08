@@ -1,0 +1,9 @@
+{ "slug": "zona", "orden": 4, "nav": "Zona",
+  "title": "Fisioteràpia a Girona, Salt i el Gironès · Fisioteràpia Serra",
+  "description": "Atenem a la clínica de Girona i a domicili a Salt, Sarrià de Ter, Fornells de la Selva, Quart i Celrà. Consulta zones i casos tractats.",
+  "secciones": [
+    { "tipo": "cabecera", "titulo": "On atenem", "texto": "Clínica al centre de Girona, a cinc minuts de l'estació, i servei a domicili als municipis del Gironès." },
+    { "tipo": "zona" },
+    { "tipo": "proyectos", "titulo": "Casos tractats", "texto": "Tres exemples reals (noms canviats) de com treballem.", "items": [ { "titulo": "Lumbàlgia crònica", "texto": "Administrativa, 41 anys. Vuit sessions i programa d'exercici. Sense dolor en seure després de sis setmanes.", "etiqueta": "Dolor" }, { "titulo": "Esquinç de turmell grau II", "texto": "Corredor popular, 29 anys. Readaptació en cinc setmanes i retorn a la competició en vuit.", "etiqueta": "Esportiva" }, { "titulo": "Recuperació postpart", "texto": "Valoració a les sis setmanes i programa de dotze sessions. Alta sense incontinència.", "etiqueta": "Sòl pelvià" } ] },
+    { "tipo": "cta", "titulo": "Vius a prop?", "texto": "Consulta si arribem al teu municipi a domicili. Responem el mateix dia.", "boton": "Preguntar per WhatsApp" }
+  ] }

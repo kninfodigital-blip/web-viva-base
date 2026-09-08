@@ -1,0 +1,72 @@
+{
+  "_ayuda": "ÚNICO archivo de configuración. Cambia aquí los datos del negocio y ejecuta `python3 scripts/build.py`. Los textos largos de cada página viven en contenido/<idioma>/*.json. Nada de aquí es secreto: las credenciales del formulario van en variables de entorno de Vercel.",
+  "dominio": "web-viva-base.vercel.app",
+  "demo": true,
+  "negocio": {
+    "nombre": "Fisioteràpia Serra",
+    "razon_social": "Fisioterapia Serra Demo, S.L.",
+    "nif": "B00000000",
+    "tipo_schema": "Physiotherapy",
+    "sector": "fisioterapia",
+    "eslogan": { "es": "Recupera el movimiento sin dolor", "ca": "Recupera el moviment sense dolor" },
+    "descripcion_corta": {
+      "es": "Clínica de fisioterapia en Girona: tratamiento del dolor, recuperación deportiva y suelo pélvico. Cita en 24-48 h.",
+      "ca": "Clínica de fisioteràpia a Girona: tractament del dolor, recuperació esportiva i sòl pelvià. Cita en 24-48 h."
+    },
+    "anio_inicio": 2012
+  },
+  "contacto": {
+    "email": "hola@ejemplo.com",
+    "telefono": "+34972000000",
+    "telefono_visible": "972 00 00 00",
+    "whatsapp": "+34600000000",
+    "whatsapp_texto": { "es": "Hola, quiero pedir cita en Fisioteràpia Serra", "ca": "Hola, vull demanar cita a Fisioteràpia Serra" },
+    "direccion": { "calle": "Carrer Exemple 12, baixos", "localidad": "Girona", "cp": "17001", "region": "Girona", "pais": "ES", "pais_nombre": { "es": "España", "ca": "Espanya" } },
+    "geo": { "lat": 41.9794, "lng": 2.8214 },
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=41.9794,2.8214",
+    "horario": [
+      { "dias": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "abre": "09:00", "cierra": "20:00" }
+    ],
+    "horario_visible": { "es": "Lunes a viernes, 9:00 a 20:00", "ca": "De dilluns a divendres, de 9:00 a 20:00" }
+  },
+  "zona": {
+    "nombre": { "es": "Girona y el Gironès", "ca": "Girona i el Gironès" },
+    "localidades": ["Girona", "Salt", "Sarrià de Ter", "Fornells de la Selva", "Quart", "Celrà"]
+  },
+  "idiomas": { "defecto": "es", "activos": ["es", "ca"] },
+  "colores": {
+    "primario": "#0B6E4F",
+    "primario_oscuro": "#084F39",
+    "acento": "#F2B705",
+    "fondo": "#FAFAF7",
+    "fondo_alterno": "#EEF4F1",
+    "texto": "#1B2420",
+    "texto_suave": "#556059",
+    "borde": "#D9E2DD",
+    "sobre_primario": "#FFFFFF"
+  },
+  "servicios": [
+    { "id": "dolor", "nombre": { "es": "Tratamiento del dolor", "ca": "Tractament del dolor" },
+      "resumen": { "es": "Cervicales, lumbares, hombro y rodilla. Diagnóstico funcional en la primera visita y plan de tratamiento claro.", "ca": "Cervicals, lumbars, espatlla i genoll. Diagnòstic funcional a la primera visita i pla de tractament clar." } },
+    { "id": "deportiva", "nombre": { "es": "Fisioterapia deportiva", "ca": "Fisioteràpia esportiva" },
+      "resumen": { "es": "Lesiones musculares y ligamentosas, readaptación y prevención para corredores, ciclistas y equipos.", "ca": "Lesions musculars i lligamentoses, readaptació i prevenció per a corredors, ciclistes i equips." } },
+    { "id": "suelo-pelvico", "nombre": { "es": "Suelo pélvico", "ca": "Sòl pelvià" },
+      "resumen": { "es": "Embarazo, posparto e incontinencia. Valoración individual y ejercicios guiados.", "ca": "Embaràs, postpart i incontinència. Valoració individual i exercicis guiats." } },
+    { "id": "domicilio", "nombre": { "es": "Fisioterapia a domicilio", "ca": "Fisioteràpia a domicili" },
+      "resumen": { "es": "Para personas con movilidad reducida en Girona y alrededores. Misma calidad, en tu casa.", "ca": "Per a persones amb mobilitat reduïda a Girona i rodalies. La mateixa qualitat, a casa teva." } }
+  ],
+  "redes": { "instagram": "", "facebook": "", "google_business": "" },
+  "imagenes": { "logo": "/assets/img/logo.svg", "og": "/assets/img/og.png", "hero": "" },
+  "formulario": { "activo": true, "asunto_prefijo": "[Web Fisioteràpia Serra]" },
+  "analitica": { "activa": false, "proveedor": "", "id": "", "_ayuda": "Apagada = sin banner de cookies ni scripts de terceros. Ver docs/ANALITICA.md antes de activar." },
+  "ia": { "permitir_entrenamiento_gemini": true },
+  "legal": {
+    "titular": "Fisioterapia Serra Demo, S.L.",
+    "nif": "B00000000",
+    "domicilio": "Carrer Exemple 12, baixos, 17001 Girona",
+    "email": "hola@ejemplo.com",
+    "registro": "",
+    "hosting": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723 (EE. UU.)",
+    "fecha_actualizacion": "2026-09-08"
+  }
+}
